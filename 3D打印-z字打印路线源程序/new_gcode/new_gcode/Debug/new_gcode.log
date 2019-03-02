@@ -1,0 +1,27 @@
+﻿  main.cpp
+c:\users\asus-pc\desktop\new_gcode\new_gcode\intpoint.h(60): warning C4244: “return”: 从“float”转换到“int32_t”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\intpoint.h(112): warning C4244: “return”: 从“float”转换到“int32_t”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\intpoint.h(163): warning C4244: “=”: 从“const ClipperLib::long64”转换到“double”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\intpoint.h(164): warning C4244: “=”: 从“const ClipperLib::long64”转换到“double”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\intpoint.h(174): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\intpoint.h(179): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\polygon.h(143): warning C4244: “初始化”: 从“ClipperLib::long64”转换到“double”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\polygon.h(159): warning C4244: “参数”: 从“double”转换到“ClipperLib::long64”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\floatpoint.h(79): warning C4244: “参数”: 从“double”转换到“const int32_t”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\slicer.h(121): warning C4244: “参数”: 从“int64_t”转换到“const int32_t”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\bridge.h(64): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(69): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(124): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(301): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(546): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(572): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 参见“sscanf”的声明
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(608): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(610): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+c:\users\asus-pc\desktop\new_gcode\new_gcode\main.cpp(612): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+  new_gcode.vcxproj -> C:\Users\ASUS-PC\Desktop\new_gcode\Debug\new_gcode.exe
+  new_gcode.vcxproj -> C:\Users\ASUS-PC\Desktop\new_gcode\Debug\new_gcode.pdb (Full PDB)

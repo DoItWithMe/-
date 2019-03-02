@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BC12158-4A9B-4E21-9636-DE2BDE5F8413}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>new_gcode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="bridge.h" />
+    <ClInclude Include="clipper.hpp" />
+    <ClInclude Include="comb.h" />
+    <ClInclude Include="floatpoint.h" />
+    <ClInclude Include="gcodeExport.h" />
+    <ClInclude Include="gettime.h" />
+    <ClInclude Include="infill.h" />
+    <ClInclude Include="inset.h" />
+    <ClInclude Include="intpoint.h" />
+    <ClInclude Include="layerPart.h" />
+    <ClInclude Include="logoutput.h" />
+    <ClInclude Include="modelFile.h" />
+    <ClInclude Include="multiVolumes.h" />
+    <ClInclude Include="optimizedModel.h" />
+    <ClInclude Include="pathOrderOptimizer.h" />
+    <ClInclude Include="polygon.h" />
+    <ClInclude Include="polygonOptimizer.h" />
+    <ClInclude Include="raft.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="skin.h" />
+    <ClInclude Include="skirt.h" />
+    <ClInclude Include="sliceDataStorage.h" />
+    <ClInclude Include="slicer.h" />
+    <ClInclude Include="support.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="clipper.cpp" />
+    <ClCompile Include="comb.cpp" />
+    <ClCompile Include="gcodeExport.cpp" />
+    <ClCompile Include="gettime.cpp" />
+    <ClCompile Include="infill.cpp" />
+    <ClCompile Include="inset.cpp" />
+    <ClCompile Include="layerPart.cpp" />
+    <ClCompile Include="logoutput.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="modelFile.cpp" />
+    <ClCompile Include="optimizedModel.cpp" />
+    <ClCompile Include="pathOrderOptimizer.cpp" />
+    <ClCompile Include="polygonOptimizer.cpp" />
+    <ClCompile Include="raft.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="skin.cpp" />
+    <ClCompile Include="skirt.cpp" />
+    <ClCompile Include="slicer.cpp" />
+    <ClCompile Include="support.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
