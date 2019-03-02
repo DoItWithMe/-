@@ -1,0 +1,14 @@
+Keypad instructions
+* the digital key 1,3 control Angle moves up and down on the y axis.
+* the number key 2,4,6,8 control up and down the left and right translation.
+* digital key 5 reset perspective.
+* numeric keys 7,9 control particle size.
+* +, - zoom in Angle.
+* the direction key up and down, the left and right control the particle's y axis and the x axis jet strength.
+* w increases gravity, and s reduces gravity.
+* a slows down particle velocity, and d increases particle velocity.
+* p suspended
+* c play
+Attention! 
+Because the color mixture is enabled and the texture of the load has its own color.
+So the final effect of the color setting will be different.

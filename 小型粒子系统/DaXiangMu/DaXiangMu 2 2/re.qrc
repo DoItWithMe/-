@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>shuidi.bmp</file>
+        <file>fire.bmp</file>
+        <file>fire2.bmp</file>
+        <file>snow.bmp</file>
+        <file>shanti1.bmp</file>
+        <file>shanti2.bmp</file>
+        <file>shanti3.bmp</file>
+        <file>Help.txt</file>
+        <file>muto.bmp</file>
+        <file>muto2.bmp</file>
+    </qresource>
+</RCC>
